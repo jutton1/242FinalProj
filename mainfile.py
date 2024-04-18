@@ -1,1 +1,0 @@
-## By Joshua Dutton, John Bloch, and Montana Lee for Spring 2024 Math 242 at Duke University
