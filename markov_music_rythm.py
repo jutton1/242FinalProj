@@ -14,7 +14,7 @@ def get_mappings(song, n):
     return mapping
 #print(get_mappings(song, 2))
 # Load the MIDI file
-midi_path = "/Users/johnbloch/Desktop/songs.mid"
+midi_path = r".\Inputs\Twinkle-Little-Star (Long Version).mid"
 midi_file = MidiFile(midi_path)
 
 # Extracting notes from the MIDI file
@@ -51,4 +51,5 @@ while time < 50000:
     track.append(Message("note_on", note=note, velocity=0, time=100))
     time += 100  # Increment total time by the duration of the note
 
-mid.save('/Users/johnbloch/Desktop/output.mid')
+
+mid.save(r'.\Outputs\twinkleoutput.mid')
